@@ -1,0 +1,146 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(220,220,220)
+}
+
+header {
+    font-family: arial,sans-serif;
+}
+
+.header-ul {
+    display: flex;
+    list-style-type: none;
+    gap:10px;
+    font-size: smaller;
+}
+
+.header-ul a {
+    color:rgb(0, 0, 0);
+}
+
+.header-ul a:hover {
+    opacity: 60%;
+    transition: .4s;
+}
+
+
+header h4 {
+    text-align: center;
+    font-size:16px;
+}
+
+header p {
+    text-align: center;
+    font-size: 12px;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+
+}
+
+img {
+    margin-left:20px;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+/* main */
+main {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.background-img {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    min-height: 100vh;
+    width:100%;
+    background: url("../../img/store-background.png");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+.sign-up-block {
+    background-color:transparent;
+    padding-top: 20px;
+    padding-bottom:20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+
+
+input {
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+    border:none;
+}
+
+.checkbox {
+    width: 15px;
+    height: 15px;
+}
+
+/* footer */
+footer {
+    font-family: Arial,sans-serif;
+}
+
+.footer-info {
+    display: flex;
+    background-color:rgb(200,200,200);
+    gap:100px;
+}
+.footer-info h3  {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    max-width: 250px;
+}
+.help-2 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.ul-footer, .ul-footer li {
+    list-style-type: none;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+footer a {
+    color:rgb(80,80,80);
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.socials {
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+.socials img {
+    width: 35px;
+    height: 35px;
+}
+
+footer p {
+    margin-left: 20px;
+}
