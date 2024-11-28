@@ -1,30 +1,18 @@
-footer {
-    font-family: Arial,sans-serif;
-}
-
 .footer-info {
     display: flex;
     background-color:rgb(200,200,200);
     gap:100px;
     padding: 20px;
 }
-.footer-info h3  {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    max-width: 250px;
+
+.kolom {
+    margin: auto;
 }
-.help-2 {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-.ul-footer, .ul-footer li {
-    list-style-type: none;
-    text-align: left;
+
+footer ul li {
     margin-bottom: 5px;
     font-weight: bold;
-
 }
-
 
 footer a {
     color:rgb(80,80,80);
@@ -37,6 +25,7 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* under-footer  */
 .socials {
     margin-left: 20px;
     margin-bottom: 3px;

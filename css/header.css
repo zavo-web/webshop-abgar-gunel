@@ -1,18 +1,10 @@
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
 header {
-    font-family: arial,sans-serif;
     background-color: rgb(220,220,220);
     padding-top:1px ;
 }
 
 .header-ul {
     display: flex;
-    list-style-type: none;
     gap:10px;
     font-size: smaller;
 }
@@ -43,7 +35,6 @@ nav {
     display: flex;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    font-family: Arial, sans-serif;
     font-weight: bold;
 }
 
@@ -55,7 +46,6 @@ nav {
 .nav-ul {
     gap: 10px;
     display: flex;
-    list-style-type: none;
 }
 
 .nav-a {
@@ -73,7 +63,7 @@ nav {
 /* dropdown */
 .fullscreen-dropdown {
     position: fixed;
-    top:11%;
+    top:7%;
     left:0;
     width: 100%;
     background-color: #ffffff; 
@@ -94,7 +84,6 @@ nav {
 }
 
 .fullscreen-dropdown li {
-    list-style: none;
     margin: 10px;
 }
 
@@ -118,10 +107,6 @@ nav {
     gap:50px;
   }
   
-  .dropdown-column {
-    flex: 1;
-  }
-  
   .dropdown-column h3 {
     font-size: 16px;
     font-weight: bold;
@@ -129,14 +114,14 @@ nav {
     text-align: left;
   }
   
-  .dropdown-column a {
+  .dropdown a {
     display: block;
     color: rgb(51, 51, 51);
     text-decoration: none;
     font-size: 12px;
   }
   
-  .dropdown-column a:hover {
+  .dropdown a:hover {
     text-decoration: underline;
   }
   
@@ -171,7 +156,6 @@ nav {
 
 .search-bar::placeholder {
     color:rgb(80,80,80);
-    font-family: 'Arial', sans-serif;
 }
 
 .search-bar:hover {
