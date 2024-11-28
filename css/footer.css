@@ -6,6 +6,7 @@ footer {
     display: flex;
     background-color:rgb(200,200,200);
     gap:100px;
+    padding: 20px;
 }
 .footer-info h3  {
     color: rgb(0, 0, 0);
@@ -22,6 +23,10 @@ footer {
     margin-bottom: 5px;
     font-weight: bold;
 
+}
+
+hr {
+    height: 10px;
 }
 
 footer a {

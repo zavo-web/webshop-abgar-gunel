@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.nav-li {
+    background-color: #555;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative; /* Allows for positioning the underline */
+    overflow: hidden;  /* Ensures underline stays within button bounds */
+}
+
+.nav-li:hover {
+    background-color: #666;
+}
+
+/* Underline Animation */
+.nav-li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0; /* Start with no width */
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out; /* Animate underline width */
+}
+
+.nav-li:hover::after {
+    width: 100%; /* Expand the underline to full width */
+}
+
+/* Dropdown Content */
+.dropdown-content {
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    display: none; /* Initially hidden */
+    padding: 10px 0;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
