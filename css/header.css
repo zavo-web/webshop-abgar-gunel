@@ -62,11 +62,11 @@ nav {
 
 /* dropdown */
 .fullscreen-dropdown {
-    position: fixed;
-    top:7%;
+    position: absolute;
+    top:70px;
     left:0;
     width: 100%;
-    background-color: #ffffff; 
+    background-color: white; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,10 +108,10 @@ nav {
   }
   
   .dropdown-column h3 {
-    font-size: 16px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-align: left;
+    font-size:16px;
+    font-weight:bold;
+    color:rgb(0, 0, 0);
+    text-align:left;
   }
   
   .dropdown a {
@@ -179,6 +179,7 @@ img.profile:hover, img.cart:hover, img.like:hover {
     opacity: 60%;
     transition: 0.4s;
 }
+
 
 img.shop-logo {
     width: 50px;

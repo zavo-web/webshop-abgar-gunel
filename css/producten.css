@@ -1,6 +1,50 @@
-/* articles  */
-.article {
+/* filter  */
+.filter-box {
     display: flex;
+}
+
+.filter-box img {
+    position: relative;
+    width:20px;
+    height: 20px;
+    top:20px;
+    right: 10px;
+    z-index: -1;
+}
+
+.title {
+    font-weight: bolder;
+}
+
+.filter li {
+    margin-bottom: 10px;
+}
+
+.filter a {
+    text-decoration: none;
+    color: black;
+}
+
+/* filter dropdown  */
+.dropdown-filter {
+    opacity:0;
+    transform: translateY(-10px);
+    transition: 0.3s ease, 0.3s ease; 
+    gap:50px;
+    
+}
+
+.filter-li:hover .dropdown-filter {
+    opacity:1;
+    transform: translateY(10%);
+}
+
+/* articles  */
+main {
+    display: flex;
+}
+.article {
+    display: flex
 }
 
 .article-img {
@@ -30,4 +74,8 @@
 .cart-article:hover {
     transition: .3s ease;
     opacity: 50%;
+}
+
+main h2 {
+    margin-left:40px;
 }
