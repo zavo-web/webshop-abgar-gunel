@@ -1,0 +1,10 @@
+@import '../css/footer.css';
+@import '../css/header.css';
+
+body {
+font-family:"Helvetica Now Text", Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style:none;
+}

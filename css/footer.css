@@ -1,0 +1,41 @@
+.footer-info {
+    display: flex;
+    background-color:rgb(200,200,200);
+    gap:100px;
+    padding: 20px;
+}
+
+.kolom {
+    margin: auto;
+}
+
+footer ul li {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+footer a {
+    color:rgb(80,80,80);
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* under-footer  */
+.socials {
+    margin-left: 20px;
+    margin-bottom: 3px;
+}
+
+.socials img {
+    width: 35px;
+    height: 35px;
+}
+
+footer p {
+    margin-left: 20px;
+}
