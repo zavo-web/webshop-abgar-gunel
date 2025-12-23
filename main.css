@@ -1,6 +1,5 @@
-/* via deze weg kunnen we delen css inladen in 1 css file */
-@import '/css/footer.css';
-@import '/css/header.css';
+@import '../css/footer.css';
+@import '../css/header.css';
 
 body {
 font-family:"Helvetica Now Text", Helvetica, Arial, sans-serif;
